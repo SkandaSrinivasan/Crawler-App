@@ -3,7 +3,13 @@ let downloadChapter = require('./downloadchapter.js')
 let urls = []
 
 async function run() {
-    urls = await getChapters('https://mangakakalot.com/read-cb1nt158504933429')
+    if(process.argv.length < 3){
+        console.error("\x1b[31m", "Please provide chapter url")
+        process.exit()
+    }
+    urls = await getChapters(process.argv[2])
+    console.log('Chapter List is as below:')
+    console.log('"\x1b[1m"', urls)
     downloadChapter(urls)
 }
 
