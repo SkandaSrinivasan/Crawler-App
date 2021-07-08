@@ -1,10 +1,11 @@
 {
   "name": "crawler-app",
   "version": "1.0.0",
-  "description": "Crawler node app",
-  "main": "Crawler.js",
+  "description": "Puppeteer node app",
+  "main": "driver.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node driver.js"
   },
   "repository": {
     "type": "git",
