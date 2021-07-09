@@ -9,18 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SkandaSrinivasan/Crawler-App.git"
+    "url": "https://github.com/SkandaSrinivasan/Image-Crawler-Mangakakalot"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SkandaSrinivasan/Crawler-App/issues"
+    "url": "https://github.com/SkandaSrinivasan/Image-Crawler-Mangakakalot/issues"
   },
-  "homepage": "https://github.com/SkandaSrinivasan/Crawler-App#readme",
+  "homepage": "https://github.com/SkandaSrinivasan/Image-Crawler-Mangakakalot",
   "dependencies": {
-    "crawler": "^1.3.0",
     "fs": "^0.0.1-security",
-    "node-fetch": "^2.6.1",
     "puppeteer": "^10.1.0"
   }
 }
